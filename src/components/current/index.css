@@ -1,0 +1,40 @@
+.curent-weather-caption{
+    display: grid;
+}
+.widget-top, .widget-bottom{
+  display: flex;
+  justify-content:  space-evenly;
+  text-align: center;
+  color: white;
+  width: 350px;
+  height: fit-content;
+  margin: 0.2rem auto;
+  padding: 1rem;
+  border-radius: 12px;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.widget-top .location{
+    text-align: start;
+}
+
+.widget-top .description{
+    text-align: start; 
+}
+.flexit{
+display: flex;
+justify-content: flex-start;
+align-items: center;
+padding: 7px;
+}
+.widget-top .description h4{
+    font-size: 2.2rem;
+}
+.widget-top .description p{
+    font-size: 1rem;
+    font-family: serif;
+    padding-right: 3px; 
+}
+img.weather-icon{
+    width: 50px;
+}
