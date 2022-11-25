@@ -26,8 +26,7 @@ const ForecastWeather = ({ data }) => {
   return (
     <>
       <label className="title">
-        Next 7 days forecast. Min/Max temperatures responses are erroneous from
-        the API.
+        Credit to GEO DB & OpenWeatherApp for thier APIs
       </label>
       {data.list.splice(0, 7).map((item, idx) => (
         <Accordion allowZeroExpanded>
